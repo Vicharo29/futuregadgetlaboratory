@@ -1,0 +1,108 @@
+.gradient-background {
+  background: linear-gradient(300deg, #374A6E, #365B6D, #4d6e7e);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.playwrite-be-vlg-400{
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h1{
+  font-family: "Playwrite BE VLG", cursive;
+}
+
+.bg-resume{
+  background-color: #365B6D;
+}
+
+.pro1{
+  display: flex;
+  justify-content: center;
+}
+
+.profile{
+  border: solid 4px;
+  border-color: white;
+  border-radius: 50%;
+}
+
+.ress{
+  color: white;
+}
+
+.ly{
+  color: #545454;
+}
+
+.jun{
+  font-size: 0.7em;
+}
+
+.ly1{
+  font-size: 2.1rem;
+}
+
+.eduYear{
+  font-size: 0.85em;
+}
+
+.res3{
+  color:#163853;
+}
+
+.corc{
+  height: 500px;
+  width: 500px;
+}
+
+.skills{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-caption{
+  background-color: whitesmoke;
+  opacity: 60%;
+}
+
+.learn{
+  border: solid 1px;
+  color: whitesmoke;
+  background-color: #365B6D;
+}
